@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/detran_rs_guia_pagamento-mcp",
+  "title": "DETRAN RS: Guia de Pagamento",
+  "description": "DETRAN RS: Guia de Pagamento, official-source lookup. Platform-hosted, pay per query with prepaid cr",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/detran_rs_guia_pagamento-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_detran_rs_guia_pagamento"
+    }
+  ]
+}
